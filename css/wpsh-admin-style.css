@@ -1,0 +1,61 @@
+
+/***********************
+1.0 Form Div layout
+***********************/
+
+.wpsh-right-left-div-wrapper {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	overflow: auto;
+}
+
+.wpsh-admin-left-div {
+	float: left;
+	width: 25%;
+}
+
+.wpsh-admin-right-div {
+	float: right;
+	width: 75%;
+}
+
+.wpsh-admin-form label {
+	padding-right: 20px;
+}
+
+/* Font size for text, labels, and input */
+.wpsh-admin-form p, 
+.wpsh-admin-form label, 
+.wpsh-admin-form span, 
+.wpsh-admin-form input, 
+.wpsh-admin-form select, 
+.wpsh-admin-form code {
+	font-size: 14px;
+}
+
+#wpsh_logo_attribution,
+#wpsh_search_titles_only {
+	vertical-align: text-bottom;
+}
+
+/***********************
+1.1 API Key and base keywords
+***********************/
+
+.wpsh-api-key-text, 
+.wpsh-default-keywords-text {
+	width: 400px;
+}
+
+/***********************
+1.2 Media queries
+***********************/
+
+@media screen and ( max-width: 620px ) {
+	.wpsh-api-key-text, 
+	.wpsh-default-keywords-text {
+		width: 250px;
+	}
+}

@@ -1,0 +1,123 @@
+
+/***********************
+1.0 Job page and form 
+***********************/
+
+.wpsh-display-numbers {
+	float:left;
+}
+
+.wpsh-jobs { 
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#wpsh-search-form {
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 20px 0 10px 0;
+}
+
+.wpsh-form-field {
+	padding: 0; 
+
+}
+
+#wpsh-location, 
+#wpsh-keywords {
+	margin: 0;
+	box-sizing: border-box;
+	height: 45px;
+	border: 1px solid;
+	font-size: 16px;
+}
+
+#wpsh-submit-form {
+	height: 45px;
+	line-height: 0;
+	font-size: 16px;	
+}
+
+.wpsh-attribution {
+	float: right;
+}
+
+#wpsh-advanced-link {
+	text-align: center;
+}
+
+/***********************
+1.1 Advanced/filter layout
+***********************/
+
+.wpsh-advanced-option-content {
+	max-width: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+.wpsh-advanced-dropdown {
+	margin-bottom: 20px;
+}
+
+#wpsh_advanced_form_keywords,
+#wpsh_advanced_form_location {
+	border: 1px solid;
+}
+
+.wpsh-advanced-search-h2 {
+	text-align: center;
+}
+
+.wpsh-sort-links {
+	float: right;
+}
+
+.wpsh-relevance-margin {
+	margin-right: 15px;
+}	
+
+.wpsh-numbers-and-sort-div {
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.wpsh-sort-links a {
+	text-decoration: none;
+}
+
+/***********************
+1.2 Pagination 
+***********************/
+
+.wpsh-pagination {
+	text-align: center;
+	margin: 0 auto;
+} 
+
+.wpsh-pagination > a, 
+.wpsh-pagination > span {
+	margin-right: 2px;
+	margin-left: 2px;
+	font-size: 1.2em;
+}
+
+/***********************
+2.0 Individual job layout
+***********************/
+
+.wpsh-jobtitle {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.wpsh-company {
+	font-weight: bold;
+}
+
+.wpsh-time-posted {
+	font-weight: bold;
+}
